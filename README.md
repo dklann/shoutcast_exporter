@@ -2,7 +2,7 @@
 
 This is a simple [Prometheus](https://prometheus.io/) exporter that scrapes stats from the [Shoutcast](https://www.shoutcast.com/) streaming media server. It uses the Shoutcast JSON API (`/statistics?json=1`).
 
-This exporter is based on the Icecast exporter (`icecast_exporter`) from [Markus Lindenberg](https://github.com/markuslindenberg/).
+This exporter is based on the Icecast exporter (`[icecast_exporter](https://github.com/markuslindenberg/icecast_exporter)`) from [Markus Lindenberg](https://github.com/markuslindenberg/).
 
 By default shoutcast_exporter listens on port 9240 for HTTP requests.
 
